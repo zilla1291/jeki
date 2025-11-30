@@ -1,0 +1,88 @@
+# Jeki Bakers - Git Ignore
+# Ignore files and directories that shouldn't be committed
+
+# Environment and Configuration
+.env
+.env.local
+.env.*.local
+config/database.php
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+
+# Dependencies
+vendor/
+node_modules/
+composer.lock
+package-lock.json
+yarn.lock
+
+# Logs
+logs/
+*.log
+npm-debug.log
+composer.log
+
+# Uploads and User Content
+assets/uploads/
+assets/user-images/
+public/uploads/
+
+# Database
+*.sql
+database/backups/
+*.sqlite
+*.db
+
+# System Files
+.htaccess.local
+.htpasswd
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+cache/
+
+# OS Generated
+.AppleDouble
+.AppleDB
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Editor Backups
+*.bak
+*.backup
+
+# Session Files
+sessions/
+*.session
+
+# Development
+.debug
+debug.log
+
+# Build Files
+dist/
+build/
+*.min.js
+*.min.css
+
+# Node/NPM (if using build tools)
+node_modules/
+dist/
+npm-debug.log
+
+# Other
+.project
+.settings/
+*.classpath
